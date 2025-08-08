@@ -168,3 +168,26 @@ body {
 
 /* General fonts styling inside the content container */
 
+.content h2 {
+    margin-bottom: 1em;
+}
+
+.content h4 {
+    margin-bottom: 0.1em;
+}
+
+.content p {
+    color: var(--sidebar-text-color);
+}
+
+.content .announcement p {
+    font-size: 0.8em;
+}
+
+.content hr {
+    border-color: #adb5bd;
+    border-style: solid;
+    margin: 1em 0;
+}
+
+/* Navbar Card */
