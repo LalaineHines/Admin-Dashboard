@@ -231,7 +231,39 @@ body {
 
 /* Announcement Card */
 
-
+.content .announcement {
+    padding: 1rem;
+    background-color: var(--sidebar-bg-color);
+    border: thin solid var(--border-color);
+    border-radius: 1rem;
+}
 
 /* Trending Card */
+
+.content .trending {
+    padding: 1.2rem;
+    background-color: var(--sidebar-bg-color);
+    border: thin solid var(--border-color);
+    border-radius: 1.2rem;
+}
+
+.content .trending div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: transparent;
+    margin-top: 0.8em;
+}
+
+.content .trending div h4 {
+    align-self: end;
+}
+
+.content .trending div img {
+    grid-row: span 2;
+    border-radius: 50%;
+    height: 3rem;
+    margin-right: 1em;
+}
+
+/* Project Cards */
 
