@@ -149,3 +149,22 @@ body {
 
 /* Content cell */
 
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-rows: 4rem;
+    min-width: 100%;
+    grid-auto-flow: dense;
+    gap: calc(var(--content-padding) / 3 * 2);
+    padding: calc(var(--content-padding) / 3 * 2);
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    overflow: auto;
+}
+
+.content svg {
+    height: 1.2em;
+}
+
+/* General fonts styling inside the content container */
+
