@@ -68,3 +68,28 @@ body {
 }
 
 /* Pseudo Classes for the icons in the header */
+
+.header .menu,
+.header .bell {
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 50%;
+    height: 2.3em;
+    width: 2.3em;
+    cursor: pointer;
+}
+
+.header .menu:hover,
+.header .menu:focus,
+.header .bell:hover,
+.header .bell:focus {
+    background-color: var(--border-color);
+    color: var(--header-text-color);
+}
+
+.header .menu {
+    display: none;
+}
+
+/* Sidebar */
