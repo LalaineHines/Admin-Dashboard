@@ -267,3 +267,32 @@ body {
 
 /* Project Cards */
 
+.content .card {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: thin solid var(--border-color);
+    border-left: 1rem solid var(--border-color);
+    background-color: var(--sidebar-bg-color);
+}
+
+.content .card .action-box {
+    display: grid;
+    grid-auto-flow: column;
+    place-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content .navbar .action,
+.content .card .action {
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 50%;
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+}
+
