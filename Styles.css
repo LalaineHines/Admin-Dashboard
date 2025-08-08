@@ -120,3 +120,32 @@ body {
 }
 
 /* Pseudo Classes for the icons next to the sidebar */
+
+.sidebar .sidebar-select:active,
+.sidebar .sidebar-select:focus,
+.sidebar .sidebar-select:hover,
+.content .card .action:focus,
+.content .card .action:hover,
+.content .navbar .action:focus,
+.content .navbar .action:hover,
+.content .navbar input:first-child:focus,
+.content .navbar input:first-child:hover {
+    background-color: var(--border-color);
+    color: var(--header-text-color);
+}
+
+.sidebar .sidebar-select:active,
+.sidebar .sidebar-select:focus {
+    border-left-color: var(--highlight-color);
+}
+
+.sidebar.toggle {
+    display: grid;
+}
+
+.sidebar svg {
+    height: 1.6em;
+}
+
+/* Content cell */
+
