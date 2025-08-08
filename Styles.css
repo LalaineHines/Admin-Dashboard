@@ -1,2 +1,20 @@
 /* Styles.css */
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --sidebar-text-color: #6c757d;
+    --sidebar-bg-color: #f8f9fa;
+    --header-text-color: #343a40;
+    --header-bg-text: #e9ecef;
+    --border-color: #ced4da;
+    --highlight-color: #562a9d;
+    --content-padding: 3rem;
+}
+
+/* Main Container */
