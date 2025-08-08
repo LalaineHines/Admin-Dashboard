@@ -220,3 +220,18 @@ body {
 
 /* Container for the important cards */
 
+.content .important {
+    display: grid;
+    gap: calc(var(--content-padding) / 3 * 2);
+    align-content: start;
+    grid-column: -2 / -1;
+    grid-row: span 3;
+    background-color: transparent;
+}
+
+/* Announcement Card */
+
+
+
+/* Trending Card */
+
